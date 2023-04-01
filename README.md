@@ -1,2 +1,2 @@
 # DSAI-Project
-DSAI Project to visualise crime data
+DSAI Project to analyze financial metrics to predict bankruptcy
