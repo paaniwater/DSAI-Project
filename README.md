@@ -1,7 +1,3 @@
-# DSAI-Project
-
-
-
 <h1 align="center">DSAI-Project</h1>
 <h4 align="center" >Analyzing financial metrics to predict bankruptcy</h4>
 
@@ -59,7 +55,9 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 <h2> &nbsp;What did we learn from this project?</h2>
 - Upsampling of data
+
 - Using Neural Network Models for data classification and prediction
+
 - Using Support Vector Machines for data classification and prediction
 
 
