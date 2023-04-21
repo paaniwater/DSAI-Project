@@ -9,7 +9,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 Since 2000, 745,566 Businesses have filed for Bankruptcy in the US. **Bankruptcy can result in significant financial losses** for entities, and being able to predict bankrupty can help entities pinpoint their problems and cut their losses. 
 However, the abundance of financial data can pose a challenge in determining which factors to prioritize when forecasting the likelihood of a company's bankruptcy
 
-Therefore, we aim to explore the effects of factors on bankruptcy and use machine learning models to predict bankruptcy, so as to <u>help entities understand their likelihood in going bankrupt</u>.
+Therefore, we aim to explore the effects of factors on bankruptcy and use machine learning models to predict bankruptcy, so as to **help entities understand their likelihood in going bankrupt**.
 
 
 <h1>Code Walkthrough</h1>
@@ -50,11 +50,11 @@ Last but not least, we compared the performance of the 3 models in [mode_compari
 1. Area Under Curve (AUC) of the Receiver Operating Characteristic (ROC) Graph
 2. Accuracy of model obtained from the Classification Report of each model
 
-We then concluded that the <u>**Neural Network model is the best model for predicting bankruptcy**</u>.
+We then concluded that the **Neural Network model is the best model for predicting bankruptcy**.
 
 <h1>Discussion and Conclusion</h1>
 
-Based on the results that the models trained using the full dataset performed better than those trained with only the top 10 variables, we can infer that <u>**factors affecting bankruptcy are not mainly limited to the top 10 correlated variables**</u>. Rather, entities would have to consider all aspects of a business to ascertain the factors potentially leading to the predicted bankruptcy of a company.
+Based on the results that the models trained using the full dataset performed better than those trained with only the top 10 variables, we can infer that **factors affecting bankruptcy are not mainly limited to the top 10 correlated variables**. Rather, entities would have to consider all aspects of a business to ascertain the factors potentially leading to the predicted bankruptcy of a company.
 
 Additionally, while we have concluded that the Neural Network model is the best amongst the 3 in predicting bankruptcy, this conclusion can vary depending on the context used. 
 
