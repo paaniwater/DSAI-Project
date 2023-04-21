@@ -2,6 +2,7 @@
 <h4 align="center" >Analyzing financial metrics to predict bankruptcy</h4>
 
 <h1>Overview</h1>
+
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on a [bankruptcy dataset](https://github.com/paaniwater/DSAI-Project/blob/main/bankruptcy.csv) obtained from kaggle, obtained from the Taiwan Economic Journal (1999–2009).
 
 <h1>The Problem</h1>
