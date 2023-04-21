@@ -4,7 +4,7 @@
 <h1>Overview</h1>
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on a bankruptcy dataset obtained from kaggle, obtained from the Taiwan Economic Journal (1999–2009).
 
-<h1> &nbsp;The Problem</h1>
+<h1>The Problem</h1>
 
 Since 2000, 745,566 Businesses have filed for Bankruptcy in the US. **Bankruptcy can result in significant financial losses** for entities, and being able to predict bankrupty can help entities pinpoint their problems and cut their losses. 
 However, the abundance of financial data can pose a challenge in determining which factors to prioritize when forecasting the likelihood of a company's bankruptcy
@@ -12,7 +12,7 @@ However, the abundance of financial data can pose a challenge in determining whi
 Therefore, we aim to explore the effects of factors on bankruptcy and use machine learning models to predict bankruptcy, so as to **help entities understand their likelihood in going bankrupt**.
 
 
-<h1> &nbsp;Code Walkthrough</h1>
+<h1>Code Walkthrough</h1>
 
 Detailed explanation of code can be found in each individual notebook.
 
@@ -49,7 +49,7 @@ Last but not least, we compared the performance of the 3 models in [mode_compari
 
 We then concluded that the Neural Network model is the best model for predicting bankruptcy.
 
-<h1> &nbsp;Discussion and Conclusion</h1>
+<h1>Discussion and Conclusion</h1>
 Based on the results that the models trained using the full dataset performed better than those trained with only the top 10 variables, we can infer that factors affecting bankruptcy are not mainly limited to the top 10 variables. Rather, entities would have to consider all aspects of a business to ascertain the factors potentially leading to the predicted bankruptcy of a company.
 
 Additionally, while we have concluded that the Neural Network model is the best amongst the 3 in predicting bankruptcy, this conclusion can vary depending on the context used. 
@@ -58,7 +58,7 @@ Based on our findings, the top 2 models is the Neural Network model, with the hi
 
 Thus, stakeholders have to properly weigh the costs of false negatives and false positives in the context of their decision making before deciding whether to use the predictions made by the Neural Network model, or by the Decision Tree Model.
 
-<h1> &nbsp;Our Learning Points</h1>
+<h1>Our Learning Points</h1>
 In this project, we utilised technologies and skills that were not covered in the course module so as to ensure proper evaluation of our dataset, which included:
 
 - Upsampling of data
@@ -98,13 +98,13 @@ In this project, we utilised technologies and skills that were not covered in th
 </div>
 <br />
 
-<h1> &nbsp;Contributors</h1>
+<h1>Contributors</h1>
 
 - Nathaniel Yew (@nathanielyew)
 - Ong Jing Xuan (@ongjx16)
 - Somesh Sahu (@paaniwater)
 
-<h1> &nbsp;References</h1>
+<h1>References</h1>
 
 1. US Courts. (January 1, 2023). Annual number of business bankruptcy cases filed in the United States from 2000 to 2022 [Graph]. In Statista. Retrieved April 21, 2023, from https://www.statista.com/statistics/817918/number-of-business-bankruptcies-in-the-united-states/
 2. Bhandari, A. (2023). Guide to AUC ROC Curve in Machine Learning : What Is Specificity? Analytics Vidhya. https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#What_is_the_AUC-ROC_Curve?
