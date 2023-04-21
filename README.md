@@ -6,21 +6,21 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 <h2> &nbsp;Code Walkthrough</h2>
 
-## Data Cleaning and Exploratory Data Analysis / Visualisation
+#### Data Cleaning and Exploratory Data Analysis / Visualisation
 [data_upsampling.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/data_upsampling.ipynb)
 
-## Data Preparation
+#### Data Preparation
 [data_visualisations.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/data_visualisations.ipynb)
 
-## Use of Machine Learning
+#### Use of Machine Learning
 [neural_network.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/neural_network.ipynb)
 [decision_tree.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/decision_tree.ipynb)
 [svm.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/svm.ipynb)
 
-## Evaluation and Final Insights
+#### Evaluation and Final Insights
 [mode_comparison.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/mode_comparison.ipynb)
 
-## Tech Stack
+#### Tech Stack
 
 <div align="center">
   <a href="https://keras.io/img/logo.png">
