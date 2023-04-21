@@ -31,6 +31,22 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
     <kbd>
       <img src="https://keras.io/img/logo.png" height="60" />
     </kbd>
+  </a>
+  <a href="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg">
+    <kbd>
+      <img src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg" height="60" />
+    </kbd>
+  </a>
+  <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/2560px-Pandas_logo.svg.png">
+    <kbd>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/2560px-Pandas_logo.svg.png" height="60" />
+    </kbd>
+  </a>
+  <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png">
+    <kbd>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" height="60" />
+    </kbd>
+  </a>
   
   <br />
   <h4>Keras | seaborn | pandas | scikitlearn</h4>
