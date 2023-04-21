@@ -4,21 +4,70 @@
 <h2>Overview</h2>
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on a bankruptcy dataset obtained from kaggle, obtained from the Taiwan Economic Journal (1999–2009).
 
+<h2> &nbsp;The Problem</h2>
+
+Since 2000, 745,566 Businesses have filed for Bankruptcy in the US. **Bankruptcy can result in significant financial losses** for entities, and being able to predict bankrupty can help entities pinpoint their problems and cut their losses. 
+However, the abundance of financial data can pose a challenge in determining which factors to prioritize when forecasting the likelihood of a company's bankruptcy
+
+Therefore, we aim to explore the effects of factors on bankruptcy and use machine learning models to predict bankruptcy, so as to **help entities understand their likelihood in going bankrupt**.
+
+
 <h2> &nbsp;Code Walkthrough</h2>
 
-#### Data Cleaning and Exploratory Data Analysis / Visualisation
-[data_upsampling.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/data_upsampling.ipynb)
+Detailed explanation of code can be found in each individual notebook.
 
-#### Data Preparation
-[data_visualisations.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/data_visualisations.ipynb)
+#### 1. Data Cleaning and Exploratory Data Analysis / Visualisation
+In the [data_visualisations.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/data_visualisations.ipynb) notebook, we performed the following to ensure our dataset is cleaned, and to better understand our dataset:
 
-#### Use of Machine Learning
-[neural_network.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/neural_network.ipynb)
-[decision_tree.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/decision_tree.ipynb)
-[svm.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/svm.ipynb)
+1. Data Cleaning
+2. Analytic Visualisation
+3. Evaluating Outliers
 
-#### Evaluation and Final Insights
-[mode_comparison.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/mode_comparison.ipynb)
+We then concluded that it was necessary to upsample our dataset before using it to train our machine learning models as our dataset was highly imbalanced, and would have given us bias results. 
+
+#### 2. Data Preparation
+We then performed upsampling of our data in [data_upsampling.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/data_upsampling.ipynb). In here, we generated the dataset [upsampled_bankruptcy.csv](https://github.com/paaniwater/DSAI-Project/blob/main/upsampled_bankruptcy.csv) to use for our machine learning models. 
+
+#### 3. Use of Machine Learning
+After cleaning, understanding and prepping our data, we then used 3 machine learning models to predict bankruptcy and compared the performance of the 3.
+
+Models used:
+1. Neural Network Model
+    [neural_network.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/neural_network.ipynb)
+2. Decision Tree Model
+    [decision_tree.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/decision_tree.ipynb)
+3. Support Vector Machines
+    [svm.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/svm.ipynb)
+
+For each type of machine learning model used, we trained 2 models, one with the full dataset (all 95 variables), and one with the top 10 variables. This is so as to ascertain whether it would be plausible to predict bankruptcy with just the top correlated variables, which would be more efficient than using 96 variables.
+
+#### 4. Evaluation and Final Insights
+Last but not least, we compared the performance of the 3 models in [mode_comparison.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/mode_comparison.ipynb), using 2 primary metrics:
+
+1. Area Under Curve (AUC) of the Receiver Operating Characteristic (ROC) Graph
+2. Accuracy of model obtained from the Classification Report of each model
+
+We then concluded that the Neural Network model is the best model for predicting bankruptcy.
+
+<h2> &nbsp;Discussion and Conclusion</h2>
+Based on the results that the models trained using the full dataset performed better than those trained with only the top 10 variables, we can infer that factors affecting bankruptcy are not mainly limited to the top 10 variables. Rather, entities would have to consider all aspects of a business to ascertain the factors potentially leading to the predicted bankruptcy of a company.
+
+Additionally, while we have concluded that the Neural Network model is the best amongst the 3 in predicting bankruptcy, this conclusion can vary depending on the context used. 
+
+Based on our findings, the top 2 models is the Neural Network model, with the highest AUC, and the Decision Tree, with the highest accuracy. Therefore, the Neural Network model should be used in situations where the cost of false negatives (classifying a bankrupt firm as non-bankrupt) is likely to be much higher than the cost of false positives (classifying a non-bankrupt firm as bankrupt). 
+
+Thus, stakeholders have to properly weigh the costs of false negatives and false positives in the context of their decision making before deciding whether to use the predictions made by the Neural Network model, or by the Decision Tree Model.
+
+<h2> &nbsp;Our Learning Points</h2>
+In this project, we utilised technologies and skills that were not covered in the course module so as to ensure proper evaluation of our dataset, which included:
+
+- Upsampling of data
+
+- Using Neural Network Models for data classification and prediction
+
+- Using Support Vector Machines for data classification and prediction
+
+- Utilising Receiver Operating Characteristic (ROC) and its Area Under Curve (AUC) to compare and evaluate performance of machine learning models
 
 #### Tech Stack
 
@@ -28,9 +77,9 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
       <img src="https://keras.io/img/logo.png" height="60" />
     </kbd>
   </a>
-  <a href="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg">
+  <a href="https://user-images.githubusercontent.com/315810/92255284-156f1180-eea0-11ea-9d2d-be8262670e8c.png">
     <kbd>
-      <img src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg" height="60" />
+      <img src="https://user-images.githubusercontent.com/315810/92255284-156f1180-eea0-11ea-9d2d-be8262670e8c.png" height="60" />
     </kbd>
   </a>
   <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/2560px-Pandas_logo.svg.png">
@@ -49,23 +98,13 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 </div>
 <br />
 
-<h2> &nbsp;The Problem</h2>
+<h2> &nbsp;Contributors</h2>
 
-<h2> &nbsp;Conclusion</h2>
+- Nathaniel Yew (@nathanielyew)
+- Ong Jing Xuan (@ongjx16)
+- Somesh Sahu (@paaniwater)
 
-<h2> &nbsp;What did we learn from this project?</h2>
-- Upsampling of data
+<h2> &nbsp;References</h2>
 
-- Using Neural Network Models for data classification and prediction
-
-- Using Support Vector Machines for data classification and prediction
-
-
-
-<!-- 
-## 🔗 &nbsp;Useful External Links
-1. Image to arduino bitmap converter [link](https://javl.github.io/image2cpp/)
-2. EEPROM interface [link](https://roboticsbackend.com/arduino-store-int-into-eeprom/) -->
-
-
-
+1. US Courts. (January 1, 2023). Annual number of business bankruptcy cases filed in the United States from 2000 to 2022 [Graph]. In Statista. Retrieved April 21, 2023, from https://www.statista.com/statistics/817918/number-of-business-bankruptcies-in-the-united-states/
+2. Bhandari, A. (2023). Guide to AUC ROC Curve in Machine Learning : What Is Specificity? Analytics Vidhya. https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#What_is_the_AUC-ROC_Curve?
