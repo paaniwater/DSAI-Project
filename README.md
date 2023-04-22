@@ -7,10 +7,14 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 <h1>The Problem</h1>
 
+### Background
 Since 2000, 745,566 Businesses have filed for Bankruptcy in the US. **Bankruptcy can result in significant financial losses** for entities, and being able to predict bankrupty can help entities pinpoint their problems and cut their losses. 
 However, the abundance of financial data can pose a challenge in determining which factors to prioritize when forecasting the likelihood of a company's bankruptcy
 
-Therefore, we aim to explore the effects of factors on bankruptcy and use machine learning models to predict bankruptcy, so as to **help entities understand their likelihood in going bankrupt**.
+### Problem Definition
+Therefore, we aim to answer the question of:
+
+**What is the optimum Machine Learning model to predict the likelihood of a company going Bankrupt and are there specific variables that can better determine Bankruptcy?**
 
 
 <h1>Code Walkthrough</h1>
