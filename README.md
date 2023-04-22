@@ -50,12 +50,12 @@ Models used:
 For each type of machine learning model used, we trained 2 models, one with the full dataset (all 95 variables), and one with the top 10 variables. This is so as to ascertain whether it would be plausible to predict bankruptcy with just the top correlated variables, which would be more efficient than using 96 variables.
 
 ### 4. Evaluation and Final Insights
-Last but not least, we compared the performance of the 3 models in [model_comparison.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/model_comparison.ipynb), using 2 primary metrics:
+Last but not least, we compared the performance of all 6 models in [model_comparison.ipynb](https://github.com/paaniwater/DSAI-Project/blob/main/model_comparison.ipynb), using 2 primary metrics:
 
 1. Area Under Curve (AUC) of the Receiver Operating Characteristic (ROC) Graph
 2. Accuracy of model obtained from the Classification Report of each model
 
-We then concluded that the **Neural Network model is the best model for predicting bankruptcy**.
+We then concluded that the **Neural Network model is the best machine learning model for predicting bankruptcy**, and that models trained using the full dataset performed better than those trained with only the top 10 variables.
 
 <h1>Discussion and Conclusion</h1>
 
