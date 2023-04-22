@@ -8,7 +8,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 <h1>The Problem</h1>
 
 ### Background
-Since 2000, 745,566 Businesses have filed for Bankruptcy in the US. **Bankruptcy can result in significant financial losses** for entities, and being able to predict bankrupty can help entities pinpoint their problems and cut their losses. 
+Since 2000, 745,566 Businesses have filed for Bankruptcy in the US. **Bankruptcy can result in significant financial losses** for entities, and being able to predict bankruptcy can help entities pinpoint their problems and cut their losses. 
 However, the abundance of financial data can pose a challenge in determining which factors to prioritize when forecasting the likelihood of a company's bankruptcy
 
 ### Problem Definition
