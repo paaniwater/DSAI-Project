@@ -3,7 +3,14 @@
 
 <h1>Overview</h1>
 
-This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on a [bankruptcy dataset](https://github.com/paaniwater/DSAI-Project/blob/main/bankruptcy.csv) obtained from kaggle, obtained from the Taiwan Economic Journal (1999–2009). The video presentation can be found [here](https://youtu.be/so_m5sz5qFo).
+This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on a [bankruptcy dataset](https://github.com/paaniwater/DSAI-Project/blob/main/bankruptcy.csv) obtained from kaggle, obtained from the Taiwan Economic Journal (1999–2009). 
+
+<h1>Video Presentation</h1>
+The video presentation can be found [here](https://youtu.be/so_m5sz5qFo).
+
+<h1>Presentation Slides</h1>
+
+The slides can be found [here](https://github.com/paaniwater/DSAI-Project/blob/main/DSAI_Presentation_BankruptcyAnalysis.pdf).
 
 <h1>The Problem</h1>
 
